@@ -1,0 +1,71 @@
+/* Fonts */
+/* Importar aquí la font */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+</style>
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: black;
+	background: #f2f2f2; 
+    font-size: 20px;
+	line-height: 1.5em;
+}
+
+/* Alinear texto de los parrafos */
+article {
+  text-align: center;
+}
+
+/* Crear la caja que contiene el texto de la biografia */
+.bioj { 
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #000000;
+  font-size: 20px; 
+  font-weight: 450; 
+  text-align: center;
+  background: #c3e5e6ff;
+  overflow: hidden; 
+  padding: 10px;
+  margin: 20px 20px;
+  border-radius: 50px;
+}
+
+h1 {text-align: center; }
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+
+.retorno{
+    font-size: 15px;
+    color: white;
+    background-color: #4fc1b9ff;
+    border: 0;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    margin: 20px 20px;
+    padding: 10px 30px;
+    display: block; 
+    width: 67px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia
+*  los costados y el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+/*    max-width: 1200px; */
+    margin: auto;
+}
